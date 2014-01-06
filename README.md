@@ -2,9 +2,9 @@ This is a repo for stuff related to [Cryptography I](https://class.coursera.org/
 
 ### HexMessage
 
-This is a class to make it easier to convert between strings and hex representation of strings and things that can be xor'ed together. Right now it assumes all strings are UTF-8 because this is a quick thing I banged out in a hurry, but I could be persuaded to fix it.
+This is a class to make it easier to convert between strings and hex representation of strings and things that can be xor'ed together. Right now it assumes all strings are UTF-8 because this is a quick thing I banged out in a hurry; I may fix it later.
 
-I wrote it for Python 3, and Unicode is one place where Python isn't backward-compatible *at all*. If you're using Python 2 you might find inspiration but you'd also have to almost rewrite the thing. If you do, please give me a pull request and I'll add it.
+I wrote it for Python 3, and Unicode is one place where Python isn't backward-compatible *at all*. If you're using Python 2 you might find inspiration here but you'd also have to almost rewrite the thing. If you do, please give me a pull request (as `hexmessage_2.py`) and I'll add it.
 
 #### Usage
 
